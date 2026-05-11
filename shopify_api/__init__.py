@@ -18,6 +18,7 @@ from .resources import (
     Shop, Metafield, Event, Product, Variant, Image,
     Customer, Order, Transaction, Fulfillment
 )
+from .graphql import GraphQLClient, GraphQLError
 
 __version__ = "1.0.0"
 
@@ -45,5 +46,7 @@ __all__ = [
     "Order",
     "Transaction",
     "Fulfillment",
+    "GraphQLClient",
+    "GraphQLError",
     "__version__",
 ]
