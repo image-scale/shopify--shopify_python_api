@@ -21,6 +21,13 @@ from .resources import (
 from .graphql import GraphQLClient, GraphQLError
 from .pagination import PaginatedCollection, PageIterator
 from .limits import Limits, LimitsError
+from .session_token import (
+    decode_from_header,
+    SessionTokenError,
+    TokenAuthenticationError,
+    InvalidIssuerError,
+    MismatchedHostsError,
+)
 
 __version__ = "1.0.0"
 
@@ -54,5 +61,10 @@ __all__ = [
     "PageIterator",
     "Limits",
     "LimitsError",
+    "decode_from_header",
+    "SessionTokenError",
+    "TokenAuthenticationError",
+    "InvalidIssuerError",
+    "MismatchedHostsError",
     "__version__",
 ]
