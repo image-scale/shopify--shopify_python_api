@@ -13,6 +13,7 @@ from .version import (
     VersionFormatError,
     VersionNotFoundError,
 )
+from .scopes import ScopeSet, ScopeFormatError
 
 __version__ = "1.0.0"
 
@@ -26,5 +27,7 @@ __all__ = [
     "VersionRegistry",
     "VersionFormatError",
     "VersionNotFoundError",
+    "ScopeSet",
+    "ScopeFormatError",
     "__version__",
 ]

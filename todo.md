@@ -5,8 +5,8 @@ Build the library starting with the core session and authentication features, th
 
 ## Tasks
 - [x] Task 1: Implement session management with OAuth authentication, including session setup, OAuth URL generation, HMAC validation, and token exchange for accessing Shopify stores
-- [>] Task 2: Implement API version management for handling different Shopify API versions (stable releases like "2024-07" and unstable) with version coercion and validation
-- [ ] Task 3: Implement API access scope management for validating and comparing OAuth permission scopes with read/write implications
+- [x] Task 2: Implement API version management for handling different Shopify API versions (stable releases like "2024-07" and unstable) with version coercion and validation
+- [>] Task 3: Implement API access scope management for validating and comparing OAuth permission scopes with read/write implications
 - [ ] Task 4: Implement the resource base class with thread-local session state, HTTP connection handling, and ActiveResource-style find/save/destroy operations
 - [ ] Task 5: Implement core shop resources (Shop) with metafield and event support, demonstrating the resource pattern
 - [ ] Task 6: Implement product resources (Product, Variant, Image) with price range calculation, collection associations, and metafield support
