@@ -27,3 +27,10 @@
 **Commit**: Add ActiveResource-style base class for interacting with Shopify REST API resources
 **Acceptance**: 13/13 criteria met
 **Verification**: tests FAIL on previous state (ImportError), PASS on current state
+
+## Round 5
+**Task**: Task 5 — Implement core shop resources
+**Files created**: shopify_api/resources/, tests/test_shop.py
+**Commit**: Add Shop, Metafield, and Event resources for accessing store information
+**Acceptance**: 9/9 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state

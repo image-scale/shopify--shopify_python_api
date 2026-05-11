@@ -1,16 +1,18 @@
 # Acceptance Criteria
 
-## Tasks 1-4: Completed
+## Tasks 1-5: Completed
 
-## Task 5: Core shop resources (Shop) with metafield and event support
+## Task 6: Product resources (Product, Variant, Image)
 
 ### Acceptance Criteria
-- [ ] Shop resource extends ResourceBase with shop-specific functionality
-- [ ] Shop.current() retrieves the current shop's information
-- [ ] shop.metafields() returns list of Metafield resources for the shop
-- [ ] shop.add_metafield(metafield) creates a new metafield for the shop
-- [ ] shop.events() returns list of Event resources for the shop
-- [ ] Metafield resource supports CRUD operations
-- [ ] Metafield has namespace, key, value, and value_type attributes
-- [ ] Event resource supports read operations
-- [ ] Event has subject_type, subject_id, verb, and created_at attributes
+- [ ] Product resource supports find, save, destroy operations
+- [ ] product.price_range() returns formatted price range string (e.g., "19.99 - 29.99")
+- [ ] product.variants returns list of Variant resources
+- [ ] product.images returns list of Image resources
+- [ ] product.metafields() returns list of Metafield resources
+- [ ] product.add_metafield(metafield) creates a new metafield for the product
+- [ ] product.add_variant(variant) adds a new variant to the product
+- [ ] Variant resource supports CRUD operations
+- [ ] Variant has price, sku, inventory_quantity attributes
+- [ ] Image resource supports CRUD operations
+- [ ] Image has src, position attributes
