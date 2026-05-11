@@ -4,7 +4,7 @@
 Build the library starting with the core session and authentication features, then add API versioning and the resource base class, followed by concrete resources, GraphQL support, pagination, and utility features. Each task delivers complete functionality that can be tested end-to-end.
 
 ## Tasks
-- [ ] Task 1: Implement session management with OAuth authentication, including session setup, OAuth URL generation, HMAC validation, and token exchange for accessing Shopify stores
+- [>] Task 1: Implement session management with OAuth authentication, including session setup, OAuth URL generation, HMAC validation, and token exchange for accessing Shopify stores
 - [ ] Task 2: Implement API version management for handling different Shopify API versions (stable releases like "2024-07" and unstable) with version coercion and validation
 - [ ] Task 3: Implement API access scope management for validating and comparing OAuth permission scopes with read/write implications
 - [ ] Task 4: Implement the resource base class with thread-local session state, HTTP connection handling, and ActiveResource-style find/save/destroy operations
