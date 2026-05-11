@@ -19,6 +19,7 @@ from .resources import (
     Customer, Order, Transaction, Fulfillment
 )
 from .graphql import GraphQLClient, GraphQLError
+from .pagination import PaginatedCollection, PageIterator
 
 __version__ = "1.0.0"
 
@@ -48,5 +49,7 @@ __all__ = [
     "Fulfillment",
     "GraphQLClient",
     "GraphQLError",
+    "PaginatedCollection",
+    "PageIterator",
     "__version__",
 ]
