@@ -14,6 +14,7 @@ from .version import (
     VersionNotFoundError,
 )
 from .scopes import ScopeSet, ScopeFormatError
+from .resources import Shop, Metafield, Event
 
 __version__ = "1.0.0"
 
@@ -31,5 +32,8 @@ __all__ = [
     "VersionNotFoundError",
     "ScopeSet",
     "ScopeFormatError",
+    "Shop",
+    "Metafield",
+    "Event",
     "__version__",
 ]

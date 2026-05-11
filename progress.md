@@ -20,3 +20,10 @@
 **Commit**: Add OAuth scope management for validating and comparing permission scopes
 **Acceptance**: 11/11 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 4
+**Task**: Task 4 — Implement resource base class
+**Files modified**: shopify_api/resource.py; **Files created**: tests/test_resource.py
+**Commit**: Add ActiveResource-style base class for interacting with Shopify REST API resources
+**Acceptance**: 13/13 criteria met
+**Verification**: tests FAIL on previous state (ImportError), PASS on current state
