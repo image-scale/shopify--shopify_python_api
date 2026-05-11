@@ -20,6 +20,7 @@ from .resources import (
 )
 from .graphql import GraphQLClient, GraphQLError
 from .pagination import PaginatedCollection, PageIterator
+from .limits import Limits, LimitsError
 
 __version__ = "1.0.0"
 
@@ -51,5 +52,7 @@ __all__ = [
     "GraphQLError",
     "PaginatedCollection",
     "PageIterator",
+    "Limits",
+    "LimitsError",
     "__version__",
 ]
