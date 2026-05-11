@@ -4,7 +4,7 @@ A Python library for accessing the Shopify Admin API.
 """
 
 from .session import ShopSession, AuthenticationError
-from .resource import ResourceBase
+from .resource import ResourceBase, ResourceError, ResourceNotFound
 from .version import (
     Version,
     Release,
@@ -21,6 +21,8 @@ __all__ = [
     "ShopSession",
     "AuthenticationError",
     "ResourceBase",
+    "ResourceError",
+    "ResourceNotFound",
     "Version",
     "Release",
     "UnstableVersion",

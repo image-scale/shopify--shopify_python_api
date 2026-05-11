@@ -13,3 +13,10 @@
 **Commit**: Add API version management for handling different Shopify API versions
 **Acceptance**: 12/12 criteria met
 **Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
+
+## Round 3
+**Task**: Task 3 — Implement API access scope management
+**Files created**: shopify_api/scopes.py, tests/test_scopes.py
+**Commit**: Add OAuth scope management for validating and comparing permission scopes
+**Acceptance**: 11/11 criteria met
+**Verification**: tests FAIL on previous state (ModuleNotFoundError), PASS on current state
